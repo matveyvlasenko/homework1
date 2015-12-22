@@ -1,9 +1,7 @@
 puts "What is a?"
-a = gets.chomp
-a = a.to_i
+a = gets.chomp.to_f
 puts "what is h?"
-h = gets.chomp
-h = h.to_i
+h = gets.chomp.to_f
 the_area = (a*h)/2
-puts "the area of the triangle equals "+ the_area.to_s
+puts "the area of the triangle equals #{the_area}"
 

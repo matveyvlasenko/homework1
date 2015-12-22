@@ -1,15 +1,12 @@
 puts "чему равна сторона a?"
-a = gets.chomp
-a = a.to_i
+a = gets.chomp.to_f
 puts "чему равна сторона b?"
-b = gets.chomp
-b = b.to_i
+b = gets.chomp.to_f
 puts "чему равна сторона c?"
-c = gets.chomp
-c = c.to_i
+c = gets.chomp.to_f
 
 
-if c**2 == (a**2+b**2)
+if c**2 == (a**2+b**2) || b**2 == (a**2+b**2)||a**2= (b**2+c**2)
   puts "ваш треугольник прямоугольный"
 elsif ( a == b) && ( a == c ) 
     puts "ваш треугольник равносторонний"
